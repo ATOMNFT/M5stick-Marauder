@@ -11,8 +11,6 @@ Read more about the fixes below.
 <b>Thanks to <a href=https://github.com/bmorcelli>Pirata/bmorcelli</a> for all your guidance on the m5stick compiling process and late night replies.</b> <br>
 <b>And thank you to <a href=https://github.com/smoochiee>smoochiee</a> and <a href=https://github.com/Fr4nkFletcher>Fr4nkFletcher</a> for helping with Marauder Arduino IDE compiling.</b><br>
 
-
-
 <hr>
 
 ## 🛠️ Fixes as of 04/07/24 🛠️
@@ -24,8 +22,9 @@ Read more about the fixes below.
 ## 🌟 Customaztions 🌟
 - Custom bootscreen added to both the c plus and c plus2.
 
+<hr>
 
-  ## Usage
+## Usage
 1. Use the link below in google chrome to flash the project onto M5stickC plus or M5stickC plus2.
 
 
