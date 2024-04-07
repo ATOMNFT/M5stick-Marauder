@@ -14,6 +14,6 @@
   ## Usage
 1. Use the link below in google chrome to flash the project onto M5stickC plus or M5stickC plus2.
 
-![Web client UI](Images/ui-img.png)
-  
-Simple Flash Method: <a href=https://atomnft.github.io/ESP32-Wi-Fi-Penetration-Tool/flash0.html>ESP32 Wi-Fi Penetration Tool Flasher</a>
+
+
+- **Simple Install:** <a href=https://atomnft.github.io/CM-Box/flash0.html>CM-Box flasher tool</a>
