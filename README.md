@@ -5,7 +5,7 @@
 This version of marauder for m5stickC plus & m5stickC plus2 contains a few great fixes and a clean bootscreen.<br>
 Read more about the fixes below. 
 <br>
-
+Flasher link is located at bottom of page.
 
 <b>A huge thank you goes to a few wonderful people. Whom without, I would have not made it as far as I did learning.</b> <br>
 <b>Thanks to <a href=https://github.com/bmorcelli>Pirata/bmorcelli</a> for all your guidance on the m5stick compiling process and late night replies.</b> <br>
