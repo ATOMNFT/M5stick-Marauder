@@ -1,5 +1,5 @@
 {
-  "name": "M5stickC Plus",
+  "name": "M5stickCP",
   "builds": [
     {
       "chipFamily": "ESP32",
