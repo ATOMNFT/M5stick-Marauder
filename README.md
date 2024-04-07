@@ -24,13 +24,7 @@ Read more about the fixes below.
 ## 🌟 Customaztions 🌟
 - ** Custom bootscreen added to both the c plus and c plus2.
 
-
-<b></b>
-  
-
-  
   <hr>
-  <br>
 
   ## Usage
 1. Use the link below in google chrome to flash the project onto M5stickC plus or M5stickC plus2.
