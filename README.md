@@ -16,8 +16,10 @@ Read more about the fixes below.
 <hr>
 
 ## 🛠️ Fixes as of 04/07/24 🛠️
-- ** Station sniffing and attacks added back in.
 - ** BLE swift pairing windows attack fixed with no crashes and very fast attacks.
+
+## 🚧 Work In Progress 🚧
+- ** Station sniffing and attacks in the works.
 
 <br>
 
