@@ -4,7 +4,9 @@
 ## 🌟 Fixes as of 04/07/24 🌟
 - ** Station sniffing and attacks added back in.
 - ** BLE swift pairing windows attack fixed with no crashes and very fast attacks.
+
 <br>
+
 ## 🌟 Customaztions 🌟
 - ** Custom bootscreen added to both the c plus and c plus2.
 
