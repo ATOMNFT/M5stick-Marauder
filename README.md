@@ -16,13 +16,13 @@ Read more about the fixes below.
 <hr>
 
 ## 🛠️ Fixes as of 04/07/24 🛠️
-- ** BLE swift pairing windows attack fixed with no crashes and very fast attacks.
+- BLE swift pairing windows attack fixed with no crashes and very fast attacks.
 
 ## 🚧 Work In Progress 🚧
-- ** Station sniffing and attacks in the works.
+- Station sniffing and attacks in the works.
 
 ## 🌟 Customaztions 🌟
-- ** Custom bootscreen added to both the c plus and c plus2.
+- Custom bootscreen added to both the c plus and c plus2.
 
   <hr>
 
