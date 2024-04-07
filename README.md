@@ -2,6 +2,12 @@
 <br>
 
 ## 🌟 Fixes as of 04/07/24 🌟
+- ** Station sniffing and attacks added back in.
+- ** BLE swift pairing windows attack fixed with no crashes and very fast attacks.
+<br>
+## 🌟 Customaztions 🌟
+- ** Custom bootscreen added to both the c plus and c plus2.
+
 
 <b></b>
   
@@ -16,4 +22,4 @@
 
 
 
-**Simple Install:** <a href=https://atomnft.github.io/M5stick-Marauder/flash0.html>M5stickC Plus/2 Tool</a>
+**Install with fixes and custom bootscreen:** <a href=https://atomnft.github.io/M5stick-Marauder/flash0.html>M5stickC Plus/2 Tool</a>
