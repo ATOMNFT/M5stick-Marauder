@@ -24,7 +24,8 @@ Read more about the fixes below.
 - Station selecting and attacks in the works.
 
 ## 🌟 Customaztions 🌟
-- Custom bootscreen added to both the c plus and c plus2.
+- Custom bootscreen added to both the c plus and c plus2.<br>
+![2USB](Images/M5boot-screen.jpg)
 
 <hr>
 
