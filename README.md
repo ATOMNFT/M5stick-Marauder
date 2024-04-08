@@ -21,7 +21,7 @@ Read more about the fixes below.
 - BLE swift pairing windows attack fixed with no crashes and very fast attacks.
 
 ## 🚧 Work In Progress 🚧
-- Station sniffing and attacks in the works.
+- Station selecting and attacks in the works.
 
 ## 🌟 Customaztions 🌟
 - Custom bootscreen added to both the c plus and c plus2.
