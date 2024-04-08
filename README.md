@@ -16,6 +16,7 @@ Read more about the fixes below.
 <br>
 
 ## 🎞️ Video preview of swift pair in action 🎞️
+
 ![Vid-Preview](https://i.imgur.com/Vu14hHU.gif)
 
 <br>
