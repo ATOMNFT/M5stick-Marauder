@@ -43,12 +43,16 @@ And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for t
 <hr>
 
 ## Usage
-1. Use the link below in google chrome to flash the project onto M5stickC plus or M5stickC plus2. 
-<br>
-Or
-<br>
-2. Download <a href=https://docs.m5stack.com/en/download>M5Burner</a> and search for marauder under (M5stickC) tab. 
+1. Use the link below in google chrome to flash the project onto M5stickC plus or M5stickC plus2.
 
 <br>
+
+Or
+
+<br>
+
+2. Download <a href=https://docs.m5stack.com/en/download>M5Burner</a> and search for marauder under (M5stickC) tab. 
+
+
 
 **Flasher tool with BLE fix and custom boot screen:** <a href=https://atomnft.github.io/M5stick-Marauder/flash0.html>M5stickC Plus/2 Tool</a>
