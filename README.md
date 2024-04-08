@@ -7,14 +7,19 @@ Read more about the fixes below.
 
 <br>
 
+## Shoutouts 📢
 <b>A huge thank you goes to a few wonderful people. Whom without, I would have not made it as far as I did learning.</b> <br>
 <b>Thanks to <a href=https://github.com/bmorcelli>Pirata/bmorcelli</a> for all your guidance on the m5stick compiling process and late night replies.</b> <br>
-<b>And thank you to <a href=https://github.com/smoochiee>smoochiee</a> and <a href=https://github.com/Fr4nkFletcher>Fr4nkFletcher</a> for helping with Marauder Arduino IDE compiling.</b>
-
+<b>And thank you to <a href=https://github.com/smoochiee>smoochiee</a> and <a href=https://github.com/Fr4nkFletcher>Fr4nkFletcher</a> for helping with Marauder Arduino IDE compiling.</b><br>
+<b>Flasher link is located at bottom of page</b>
+<hr>
 <br>
 
-<b>Flasher link is located at bottom of page</b>
+## 🎞️ Video preview of swift pairin action 🎞️
+![Vid-Preview](https://i.imgur.com/RGPf9rt.gif)
 
+
+<br>
 <hr>
 
 ## 🛠️ Fixes as of 04/07/24 🛠️
@@ -22,12 +27,10 @@ Read more about the fixes below.
 
 ## 🚧 Work In Progress 🚧
 - Station selecting and attacks in the works.
-- Custom ui colors coming to both the c plus and c plus2 soon.
 
 ## 🌟 Customaztions 🌟
 - Custom bootscreen added to both the c plus and c plus2.<br>
-![2USB](Images/M5boot-screen.jpg) <br>
-
+![2USB](Images/M5boot-screen.jpg)
 
 <hr>
 
