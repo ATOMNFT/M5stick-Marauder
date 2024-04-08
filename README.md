@@ -15,23 +15,23 @@ Read more about the fixes below.
 <hr>
 <br>
 
-## 🎞️ Video preview of swift pair in action 🎞️
-
-![Vid-Preview](Images/m5stickcp2-blefix.gif)
-
-<br>
-<hr>
-
 ## 🛠️ Fixes as of 04/07/24 🛠️
 - BLE swift pairing windows attack fixed with no crashes and very fast attacks.
-
-## 🚧 Work In Progress 🚧
-- Station selecting and attacks in the works.
 
 ## 🌟 Customaztions 🌟
 - Custom bootscreen added to both the c plus and c plus2.<br>
 ![2USB](Images/M5boot-screen.jpg)
 
+## 🚧 Work In Progress 🚧
+- Station selecting and attacks in the works.
+
+<hr>
+
+## 🎞️ Video preview of swift pair spam in action 🎞️
+
+![Vid-Preview](Images/m5stickcp2-blefix.gif)
+
+<br>
 <hr>
 
 ## Usage
@@ -39,4 +39,4 @@ Read more about the fixes below.
 
 
 
-**Install with fixes and custom bootscreen:** <a href=https://atomnft.github.io/M5stick-Marauder/flash0.html>M5stickC Plus/2 Tool</a>
+**Flasher tool with BLE fix and custom boot screen:** <a href=https://atomnft.github.io/M5stick-Marauder/flash0.html>M5stickC Plus/2 Tool</a>
