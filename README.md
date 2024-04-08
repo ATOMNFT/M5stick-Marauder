@@ -17,7 +17,7 @@ Read more about the fixes below.
 
 ## 🎞️ Video preview of swift pair in action 🎞️
 
-![Vid-Preview](https://i.imgur.com/RGPf9rt.gif)
+![Vid-Preview](https://i.postimg.cc/jqXdr8DM/m5stickcp2-blefix.gif)
 
 
 <br>
