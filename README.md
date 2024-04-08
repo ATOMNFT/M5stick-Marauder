@@ -15,10 +15,8 @@ Read more about the fixes below.
 <hr>
 <br>
 
-## 🎞️ Video preview of swift pair in action 🎞️
-
-![Vid-Preview](https://i.postimg.cc/jqXdr8DM/m5stickcp2-blefix.gif)
-
+## 🎞️ Video preview of swift pairin action 🎞️
+![Vid-Preview](https://i.imgur.com/wfcy6vF.gif)
 
 <br>
 <hr>
