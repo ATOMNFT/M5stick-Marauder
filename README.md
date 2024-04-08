@@ -15,7 +15,8 @@ Read more about the fixes below.
 <hr>
 <br>
 
-## 🎞️ Video preview of swift pairin action 🎞️
+## 🎞️ Video preview of swift pair in action 🎞️
+
 ![Vid-Preview](https://i.imgur.com/RGPf9rt.gif)
 
 
