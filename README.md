@@ -22,10 +22,12 @@ Read more about the fixes below.
 
 ## 🚧 Work In Progress 🚧
 - Station selecting and attacks in the works.
+- Custom ui colors coming to both the c plus and c plus2 soon.
 
 ## 🌟 Customaztions 🌟
 - Custom bootscreen added to both the c plus and c plus2.<br>
-![2USB](Images/M5boot-screen.jpg)
+![2USB](Images/M5boot-screen.jpg) <br>
+
 
 <hr>
 
