@@ -18,9 +18,13 @@ Read more about the fixes below.
 ## 🛠️ Fixes as of 04/07/24 🛠️
 - BLE swift pairing windows attack fixed with no crashes and very fast attacks.
 
+<hr>
+
 ## 🌟 Customaztions 🌟
 - Custom bootscreen added to both the c plus and c plus2.<br>
 ![2USB](Images/M5boot-screen.jpg)
+
+<hr>
 
 ## 🚧 Work In Progress 🚧
 - Station selecting and attacks in the works.
