@@ -11,7 +11,8 @@ Read more about the fixes below.
 <b>A huge thank you goes to a few wonderful people. Whom without, I would have not made it as far as I did learning.</b> <br>
 <b>Thanks to <a href=https://github.com/bmorcelli>Pirata/bmorcelli</a> for all your guidance on the m5stick compiling process and late night replies.</b> <br>
 <b>And thank you to <a href=https://github.com/smoochiee>smoochiee</a> and <a href=https://github.com/Fr4nkFletcher>Fr4nkFletcher</a> for helping with Marauder Arduino IDE compiling.</b><br>
-And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for the foundational work on ESP32 Marauder.<br>
+And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for the foundational work on ESP32 Marauder. 
+<br>
 <b>Flasher link is located at bottom of page</b>
 <hr>
 <br>
