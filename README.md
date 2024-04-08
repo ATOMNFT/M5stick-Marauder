@@ -16,7 +16,7 @@ Read more about the fixes below.
 <br>
 
 ## 🎞️ Video preview of swift pairin action 🎞️
-![Vid-Preview](https://i.imgur.com/wfcy6vF.gif)
+![Vid-Preview](https://i.imgur.com/Vu14hHU.gif)
 
 <br>
 <hr>
