@@ -7,8 +7,8 @@
   #define POLISH_POTATO
 
   //// BOARD TARGETS
-  #define MARAUDER_M5STICKC
-  //#define MARAUDER_M5STICKCP2
+  #define MARAUDER_M5STICKC  // Comment out if compiling for m5stickC plus 2
+  //#define MARAUDER_M5STICKCP2   // Uncomment if compiling for m5stickC plus 2
   //#define MARAUDER_MINI
   //#define MARAUDER_V4
   //#define MARAUDER_V6
