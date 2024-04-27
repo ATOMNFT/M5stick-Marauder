@@ -17,8 +17,8 @@ And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for t
 <br>
 
 <b>Flasher link is located at bottom of page</b>
-<hr>
 <br>
+<hr>
 
 ## 🛠️ Fixes as of 04/07/24 🛠️
 - BLE swift pairing windows attack fixed with no crashes and very fast attacks.
