@@ -3,7 +3,8 @@
 
 ## Updated to 13.10
 <br>
-<b>Want wifi-marauder on that tiny m5stickC plus or m5stickC plus2? Tried to build from source and hitting brick walls? Then this repo is what you're looking for! A simple way to install marauder on these cool tiny devices! <br>
+<b>Want wifi-marauder on that tiny m5stickC plus or m5stickC plus2? Tried to build from source and hitting brick walls? Then this repo is what you're looking for! A simple way to install marauder on these cool tiny devices! 
+<br><br>
 This version of marauder for m5stickC plus & m5stickC plus2 contains a few great fixes and a clean bootscreen (Read more about the fixes below). <br>
 I have also include the <a href=https://github.com/ATOMNFT/M5stick-Marauder/tree/main/M5stickC%20Plus%201%20%26%202%20WiFi%20Marauder%200.13.10>0.13.10 sketch folder</a> with all edits already made if you'd prefer to build from source.</b>
 <br> 
