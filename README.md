@@ -22,7 +22,7 @@ And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for t
 <hr>
 
 ## 🛠️ Fixes as of 04/07/24 🛠️
-- BLE swift pairing windows attack fixed with no crashes and very fast attacks.
+- BLE swift pairing windows attack fixed with no crashes and very fast attacks. (See video below)
 
 <hr>
 
