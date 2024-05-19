@@ -18,7 +18,8 @@ And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for t
 
 <br>
 
-<b>Flasher link is located at bottom of page</b>
+<b>Flasher link and bin file link are located at bottom of page</b>
+
 <br>
 <hr>
 
