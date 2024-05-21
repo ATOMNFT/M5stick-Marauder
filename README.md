@@ -23,7 +23,8 @@ And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for t
 <br>
 <hr>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F7CC08&random=false&width=435&lines=Looking+for+a+sd+attachment;to+expand+the+use+of+your+M5stick%3F;Visit+the+link+below+to+build+your+own!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F7CC08&random=false&width=435&lines=Looking+for+a+sd+attachment;to+expand+the+use+of+your+M5stick%3F;Visit+the+link+below+to+build+your+own!)](https://git.io/typing-svg) 
+<br>
 <a href=https://github.com/ATOMNFT/M5stick-CPlus-SD-Backpack>SD Backpack</a>
 
 <br>
