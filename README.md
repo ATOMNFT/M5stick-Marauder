@@ -1,9 +1,11 @@
+![Header](Images/main-header.png)
+<br>
+
 <p align="center">
 <img src="https://github.com/ATOMNFT/M5stick-Marauder/blob/main/Images/Repolike.svg">
 </p>
 
-![Header](Images/main-header.png)
-<br>
+---
 
 ## Updated to 0.13.10
 <br>
