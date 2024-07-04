@@ -15,7 +15,7 @@ PROGMEM const char text0_4[] = "Failed to Initialize SD Card";
 PROGMEM const char text0_5[] = "Checked battery configuration";
 PROGMEM const char text0_6[] = "Initialized temperature interface";
 PROGMEM const char text0_7[] = "Initialized LED Interface";
-PROGMEM const char text0_8[] = "Starting...";
+PROGMEM const char text0_8[] = "Happy Hacking...";
 
 //Single library (action) texts/Often used
 PROGMEM const char text00[] = "Battery Level changed: ";
