@@ -8,7 +8,10 @@
 ---
 
 ## ⬆ Update Highlights 06/27/24 — Marauder v1.0.0 added ⬆
+- Station selecting and attacks now fully working!
+
 <br>
+
 <b>Want wifi-marauder on that tiny m5stickC plus or m5stickC plus2? Tried to build from source and hitting brick walls? Then this repo is what you're looking for! A simple way to install marauder on these cool tiny devices! 
 <br><br>
 These versions (v13.10) & (v1.0.0) of marauder for m5stickC plus & m5stickC plus2 contains a few great fixes and v13.10 contains a clean bootscreen (Read more about the fixes below). <br>
@@ -47,11 +50,6 @@ Build your own <a href=https://github.com/ATOMNFT/M5stick-CPlus-SD-Backpack>SD B
 ## 🌟 Customaztions 🌟
 - Custom bootscreen (v13.10 only) added to both the c plus and c plus2.<br>
 ![2USB](Images/M5boot-screen.jpg)
-
-<hr>
-
-## 🚧 Work In Progress 🚧
-- Station selecting and attacks in the works.
 
 <hr>
 
