@@ -12,7 +12,7 @@
 <b>Want wifi-marauder on that tiny m5stickC plus or m5stickC plus2? Tried to build from source and hitting brick walls? Then this repo is what you're looking for! A simple way to install marauder on these cool tiny devices! 
 <br><br>
 These versions (v13.10) & (v1.0.0) of marauder for m5stickC plus & m5stickC plus2 contains a few great fixes and v13.10 contains a clean bootscreen (Read more about the fixes below). <br>
-I have also include the <a href=https://github.com/ATOMNFT/M5stick-Marauder/tree/main/M5stickC%20Plus%201%20%26%202%20WiFi%20Marauder%200.13.10>0.13.10 sketch folder</a> with all edits already made if you'd prefer to build from source.</b>
+I have also include the both sketch folders with all edits already made if you'd prefer to build from source.</b>
 
 <br> 
 
@@ -63,7 +63,7 @@ Build your own <a href=https://github.com/ATOMNFT/M5stick-CPlus-SD-Backpack>SD B
 <hr>
 
 ## Usage
-1. Use the link below in google chrome to flash the project onto M5stickC plus or M5stickC plus2. <br> 
+1. Use the link below in google chrome to flash the project (v1.0.0 coming soon) onto M5stickC plus or M5stickC plus2. <br> 
 **Flasher tool with BLE fix and custom boot screen:** <a href=https://atomnft.github.io/M5stick-Marauder/flash0.html>M5stickC Plus/2 Tool</a>
 
 <br>
@@ -76,6 +76,6 @@ Or
 
 <br>
 
-3. <b>You can also download the bin files <a href=https://github.com/ATOMNFT/M5stick-Marauder/tree/main/Bin%20Files>HERE</a></b>
+3. <b>You can also download the bin files (13.10 only at the moment) <a href=https://github.com/ATOMNFT/M5stick-Marauder/tree/main/Bin%20Files>HERE</a></b>
 
 ---
