@@ -61,8 +61,8 @@ Build your own <a href=https://github.com/ATOMNFT/M5stick-CPlus-SD-Backpack>SD B
 <hr>
 
 ## Usage
-1. Use the link below in google chrome to flash the project (v1.0.0 coming soon) onto M5stickC plus or M5stickC plus2. <br> 
-**Flasher tool with BLE fix and custom boot screen:** <a href=https://atomnft.github.io/M5stick-Marauder/flash0.html>M5stickC Plus/2 Tool</a>
+1. Use the link below in google chrome to flash the project onto M5stickC plus or M5stickC plus2. <br> 
+**Flasher tool:** <a href=https://atomnft.github.io/M5stick-Marauder/flash0.html>M5stickC Plus/2 Tool</a>
 
 <br>
 

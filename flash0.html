@@ -1,146 +1,137 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  
+<head>
   <meta charset="utf-8" />
-    <title>M5stickC Marauder 0.13.10 Web Flasher</title>
-    <img src="Images/flashpage-header.png" alt="Logo" class="logo">   
-    <meta
-      name="description"
-      content="Easily allows users to install the wifi marauder 0.13.10 on M5stickC plus & M5stickC Plus2"
-    />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="color-scheme" content="dark light" />
-  
-
-    
-    <style>
+  <title>M5stickC Marauder Web Flasher</title>
+  <img src="Images/flashpage-header.png" alt="Logo" class="logo">   
+  <meta name="description" content="Easily allows users to install the wifi marauder on M5stickC plus & M5stickC Plus2" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="color-scheme" content="dark light" />
+  <style>
+    body {
+      font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;
+      padding: 0;
+      margin: 0;
+      line-height: 1.4;
+    }
+    .content {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 12px;
+      text-align: center; /* Center align content */
+    }
+    h2 {
+      margin-top: 2em;
+    }
+    h3 {
+      margin-top: 1.5em;
+    }
+    a {
+      color: #03a9f4;
+    }
+    .invisible {
+      visibility: hidden;
+    }
+    .hidden {
+      display: none;
+    }
+    esp-web-install-button[install-unsupported] {
+      visibility: inherit;
+    }
+    .content pre {
+      max-width: 100%;
+      overflow-y: scroll;
+    }
+    .footer {
+      margin-top: 24px;
+      border-top: 1px solid #ccc;
+      padding-top: 24px;
+      text-align: center;
+    }
+    .footer .initiative {
+      font-style: italic;
+      margin-top: 16px;
+    }
+    table {
+      border-spacing: 0;
+    }
+    td {
+      padding: 8px;
+      border-bottom: 1px solid #ccc;
+    }
+    .radios li {
+      list-style: none;
+      line-height: 2em;
+    }
+    .logo {
+      max-width: 400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .wrapper {
+      display: flex;
+      justify-content: center;
+    }
+    .dropdowns {
+      margin-top: 20px; /* Adjust spacing between dropdowns */
+    }
+    @media (prefers-color-scheme: dark) {
       body {
-        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
-          Roboto, Ubuntu, sans-serif;
-        padding: 0;
-        margin: 0;
-        line-height: 1.4;
-      }
-      .content {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 12px;
-      }
-      h2 {
-        margin-top: 2em;
-      }
-      h3 {
-        margin-top: 1.5em;
+        background-color: #333;
+        color: #fff;
       }
       a {
-        color: #03a9f4;
+        color: #58a6ff;
       }
-      .invisible {
-        visibility: hidden;
-      }
-      .hidden {
-        display: none;
-      }
-      esp-web-install-button[install-unsupported] {
-        visibility: inherit;
-      }
-      .content pre {
-        max-width: 100%;
-        overflow-y: scroll;
-      }
-      .footer {
-        margin-top: 24px;
-        border-top: 1px solid #ccc;
-        padding-top: 24px;
-        text-align: center;
-      }
-      .footer .initiative {
-        font-style: italic;
-        margin-top: 16px;
-      }
-      table {
-        border-spacing: 0;
-      }
-      td {
-        padding: 8px;
-        border-bottom: 1px solid #ccc;
-      }
-      .radios li {
-        list-style: none;
-        line-height: 2em;
-      }
-	  .logo {
-        max-width: 400px;
-		display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-	  .wrapper {
-        display: flex;
-        justify-content: center;
-      }
-	  .back1usb
-	   height: 18%;
-	   width: 20%;
-	   padding: 10px;
-	   text-align: center;
-	   }
-	   .back2usb
-	   height: 18%;
-	   width: 20%;
-	   padding: 10px;
-	   text-align: center;
-	   }
-      @media (prefers-color-scheme: dark) {
-        body {
-          background-color: #333;
-          color: #fff;
-        }
-        a {
-          color: #58a6ff;
-        }
-      }
-    </style>
-    <script type="module" src="https://unpkg.com/esp-web-tools@8.0.1/dist/web/install-button.js?module"></script>
-  </head>
-  <body>
-  
-    
-      <center>
-    <div class="content">
-      <p>Connect your device then select the "Flash" option and push connect.</p>
-      <ul class="radios">
-        <li>
-          <label><input type="radio" name="type" value="M5stickCP" /> FLASH to M5stickC Plus</label>
-        </li>
-		<li>
-          <label><input type="radio" name="type" value="M5stickCP2" /> FLASH to M5stickC Plus2</label>
-        </li>
-      </ul>
-      <p class="button-row" align="center">
-        <esp-web-install-button class="invisible"></esp-web-install-button>
-      </p>
-      </center>
-      <div class="footer">
-        ✨Flasher by <a href="https://github.com/ATOMNFT"
-          >atomnft.eth</a
-        > &mdash;
-        Installer powered by <a href="https://esphome.github.io/esp-web-tools/">ESP Web Tools</a> 🛠️
-		
-		<br>
-		
-		 
-		
+    }
+  </style>
+  <script type="module" src="https://unpkg.com/esp-web-tools@8.0.1/dist/web/install-button.js?module"></script>
+</head>
+<body>
+  <div class="content">
+    <p>Connect your M5stick and then choose which version stick you have. <br> Then choose which version of marauder and push connect.</p>
+    <div class="dropdowns">
+      <fieldset>
+        <legend>Device Type:</legend>
+        <select id="device-type">
+          <option value="" selected disabled>Choose a device</option>
+          <option value="M5stickCP">M5stickC Plus</option>
+          <option value="M5stickCP2">M5stickC Plus2</option>
+        </select>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Marauder Version:</legend>
+        <select id="marauder-version">
+          <option value="" selected disabled>Choose a version</option>
+          <option value="0.13.10">Marauder 0.13.10</option>
+          <option value="1.0.0">Marauder 1.0.0</option>
+        </select>
+      </fieldset>
     </div>
-    <script>
-      document.querySelectorAll('input[name="type"]').forEach(radio =>
-        radio.addEventListener("change", () => {
-          const button = document.querySelector('esp-web-install-button');
-          button.manifest = `Web/manifest_${radio.value}.json`;
-          button.classList.remove('invisible');
-        }
-      ));
-    </script>
-  </body>
+    <p class="button-row" align="center">
+      <esp-web-install-button class="invisible"></esp-web-install-button>
+    </p>
+  </div>
+  <div class="footer">
+    ✨Flasher by <a href="https://github.com/ATOMNFT">atomnft.eth</a> &mdash;
+    Installer powered by <a href="https://esphome.github.io/esp-web-tools/">ESP Web Tools</a> 🛠️
+    <br>
+  </div>
+  <script>
+    document.getElementById('device-type').addEventListener('change', updateButtonVisibility);
+    document.getElementById('marauder-version').addEventListener('change', updateButtonVisibility);
+
+    function updateButtonVisibility() {
+      const deviceType = document.getElementById('device-type').value;
+      const marauderVersion = document.getElementById('marauder-version').value;
+      const button = document.querySelector('esp-web-install-button');
+      if (deviceType && marauderVersion) {
+        button.manifest = `Web/manifest_${deviceType}_${marauderVersion}.json`;
+        button.classList.remove('invisible');
+      }
+    }
+  </script>
+</body>
 </html>
