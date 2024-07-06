@@ -1,5 +1,5 @@
 {
-  "name": "M5stickCP 1.0.0 Marauder",
+  "name": "M5stickCP2 1.0.0 Marauder",
   "builds": [
     {
       "chipFamily": "ESP32",
