@@ -37,9 +37,11 @@
 
 //#include <User_Setup_m5stickc.h>                 // (For M5Stick CPlus 1.1)
 //#include <User_Setup_m5stickcp2.h>               // (For M5Stick CPlus 2)
-//#include <User_Setup_marauder_m5stickc.h>        // (For Marauder M5Stick CPlus 1.1)
+
+#include <User_Setup_marauder_m5stickc.h>        // (For Marauder M5Stick CPlus 1.1)
 //#include <User_Setup_marauder_m5stickcp2.h>      // (For Marauder M5Stick CPlus 2)
-#include <User_Setup_minigotchi_m5stickc.h>      // (For Minigotchi M5Stick CPlus 1.1)
+
+//#include <User_Setup_minigotchi_m5stickc.h>      // (For Minigotchi M5Stick CPlus 1.1)
 //#include <User_Setup_minigotchi_m5stickcp2.h>    // (For Minigotchi M5Stick CPlus 2)
 //#include <User_Setup_minigotchi_m5cardputer.h>   // (For Minigotchi M5Cardputer)
 //----------------------------------------------------------------------------------------
