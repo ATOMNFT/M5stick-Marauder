@@ -29,6 +29,9 @@ And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for t
 
 <b>Flasher link and bin file link are located at bottom of page</b>
 
+<b>If you build from the <a href=https://github.com/ATOMNFT/M5stick-Marauder/tree/main/M5stickC%20Plus%201%20%26%202%20WiFi%20Marauder%200.13.10/esp32_marauder>13.10 sketch files</a> or the 
+<a href=https://github.com/ATOMNFT/M5stick-Marauder/tree/main/M5stickC%20Plus%201%20%26%202%20WiFi%20Marauder%201.0.0/esp32_marauder>1.0.0 sketch files</a> located in this repo make sure to select esp32/m5stick-c in board settings of ArduinoIDE.</b>
+
 <br>
 <hr>
 
@@ -60,20 +63,19 @@ Build your own <a href=https://github.com/ATOMNFT/M5stick-CPlus-SD-Backpack>SD B
 <br>
 <hr>
 
-## Usage
-1. Use the link below in google chrome to flash the project onto M5stickC plus or M5stickC plus2. <br> 
+## Installation Methods
+1. Use the link below in google chrome to flash the project onto M5stickC plus or M5stickC plus2. 
+<br> 
+
 **Flasher tool:** <a href=https://atomnft.github.io/M5stick-Marauder/flash0.html>M5stickC Plus/2 Tool</a>
 
-<br>
+<hr>
 
-Or
+2. Download <a href=https://docs.m5stack.com/en/download>M5Burner</a> and search for Marauder under (M5stickC) tab.
 
-<br>
+<hr>
 
-2. Download <a href=https://docs.m5stack.com/en/download>M5Burner</a> and search for marauder under (M5stickC) tab. 
+3. <b>You can download the bin files (13.10 only at the moment) <a href=https://github.com/ATOMNFT/M5stick-Marauder/tree/main/Bin%20Files>HERE</a></b>
 
-<br>
+<hr>
 
-3. <b>You can also download the bin files (13.10 only at the moment) <a href=https://github.com/ATOMNFT/M5stick-Marauder/tree/main/Bin%20Files>HERE</a></b>
-
----
