@@ -37,8 +37,7 @@ And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for t
 
 <b>Flasher link and bin file link are located at bottom of page</b>
 
-<b>If you build from the <a href=https://github.com/ATOMNFT/M5stick-Marauder/tree/main/M5stickC%20Plus%201%20%26%202%20WiFi%20Marauder%200.13.10/esp32_marauder>13.10 sketch files</a> or the 
-<a href=https://github.com/ATOMNFT/M5stick-Marauder/tree/main/M5stickC%20Plus%201%20%26%202%20WiFi%20Marauder%201.0.0/esp32_marauder>1.0.0 sketch files</a> located in this repo make sure to select esp32/m5stick-c in board settings of ArduinoIDE.</b>
+<b>If you build from the files located in this repo make sure to select esp32/m5stick-c in board settings of ArduinoIDE.</b>
 
 <br>
 <hr>
