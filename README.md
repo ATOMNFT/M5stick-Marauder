@@ -83,6 +83,6 @@ Build your own <a href=https://github.com/ATOMNFT/M5stick-CPlus-SD-Backpack>SD B
 <hr>
 
 3. <b>You can download the bin files and flash them using m5burner or use with <a href=https://github.com/bmorcelli/M5Stick-Launcher>M5Launcher</a> by bmorcelli as well</b>
-<a href=https://github.com/bmorcelli/M5Stick-Launcher>M5Launcher</a>
+
 <hr>
 
