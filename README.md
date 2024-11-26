@@ -35,7 +35,7 @@ And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for t
 
 <br>
 
-<b>Flasher link and bin file link are located at bottom of page</b>
+<b>Flasher & bin files are located at bottom of page</b>
 
 <b>If you build from the files located in this repo make sure to select esp32/m5stick-c in board settings of ArduinoIDE.</b>
 
@@ -82,7 +82,7 @@ Build your own <a href=https://github.com/ATOMNFT/M5stick-CPlus-SD-Backpack>SD B
 
 <hr>
 
-3. <b>You can download the bin files (13.10 only at the moment) <a href=https://github.com/ATOMNFT/M5stick-Marauder/tree/main/Bin%20Files>HERE</a></b>
+3. <b>You can download the bin files and flash them using m5burner or use with <a href=https://github.com/bmorcelli/M5Stick-Launcher?tab=readme-ov-file>M5Launcher</a> by bmorcelli as well</b>
 
 <hr>
 
