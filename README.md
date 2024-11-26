@@ -23,7 +23,7 @@
 <b>Want wifi-marauder on that tiny m5stickC plus or m5stickC plus2? Tried to build from source and hitting brick walls? Then this repo is what you're looking for! A simple way to install marauder on these cool tiny devices! 
 <br><br>
 These versions of marauder for m5stickC plus & m5stickC plus2 contains a few great fixes and v13.10 contains a clean bootscreen (Read more about the fixes below). <br>
-I have also include the both sketch folders with all edits already made if you'd prefer to build from source.</b>
+I have also include the sketch folders with all edits already made if you'd prefer to build from source.</b>
 
 <br> 
 
