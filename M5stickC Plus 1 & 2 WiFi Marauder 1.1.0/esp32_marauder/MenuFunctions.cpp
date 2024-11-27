@@ -400,6 +400,7 @@ MenuFunctions::MenuFunctions()
         // Start spoofing airtag
         if (do_that_thang) {
           menu_function_obj.deinitLVGL();
+          
           lv_obj_del_async(lv_obj_get_parent(lv_obj_get_parent(btn)));
           wifi_scan_obj.StartScan(WIFI_SCAN_OFF);
           display_obj.clearScreen();
@@ -407,6 +408,7 @@ MenuFunctions::MenuFunctions()
           display_obj.clearScreen();
           menu_function_obj.drawStatusBar();
           wifi_scan_obj.StartScan(BT_SPOOF_AIRTAG, TFT_WHITE);
+
         }
       }
       else {
@@ -1033,12 +1035,12 @@ void MenuFunctions::updateStatusBar()
   
   uint16_t the_color; 
 
-//////////////////////////////////////////////////////////////////////////////////////  Adjust based on config.h file
-  if (this->old_gps_sat_count != gps_obj.getNumSats()) {                          //
-    this->old_gps_sat_count = gps_obj.getNumSats();                               //
-    display_obj.tft.fillRect(0, 0, 240, STATUS_BAR_WIDTH, STATUSBAR_COLOR);       //
-    status_changed = true;                                                        //
-  }                                                                               //
+//////////////////////////////////////////////////////////////////////////////////////  Adjust based on config.h file gps status
+  // if (this->old_gps_sat_count != gps_obj.getNumSats()) {                         //
+  //   this->old_gps_sat_count = gps_obj.getNumSats();                              //
+  //   display_obj.tft.fillRect(0, 0, 240, STATUS_BAR_WIDTH, STATUSBAR_COLOR);      //
+  //   status_changed = true;                                                       //
+  // }                                                                              //
 //////////////////////////////////////////////////////////////////////////////////////
 
   // GPS Stuff
@@ -1465,7 +1467,7 @@ void MenuFunctions::RunSetup()
   this->addNodes(&wifiMenu, text_table1[31], TFT_YELLOW, NULL, SNIFFERS, [this]() {
     this->changeMenu(&wifiSnifferMenu);
   });
-  this->addNodes(&wifiMenu, "Wardriving", TFT_GREEN, NULL, BEACON_SNIFF, [this]() {
+  this->addNodes(&wifiMenu, "Wardriving", TFT_GREEN, NULL, BEACON_SNIFF, [this]() {        // Change for CYD GPS if needed
     this->changeMenu(&wardrivingMenu);
   });
   this->addNodes(&wifiMenu, text_table1[32], TFT_RED, NULL, ATTACKS, [this]() {
@@ -1543,8 +1545,8 @@ void MenuFunctions::RunSetup()
       wifi_scan_obj.StartScan(WIFI_SCAN_SIG_STREN, TFT_CYAN);
     });
   #endif
-
-  // Build Wardriving menu
+  
+  // Build Wardriving menu                                                                                Changed for CYD GPS if needed
   wardrivingMenu.parentMenu = &wifiMenu; // Main Menu is second menu parent
   this->addNodes(&wardrivingMenu, text09, TFT_LIGHTGREY, NULL, 0, [this]() {
     this->changeMenu(wardrivingMenu.parentMenu);
@@ -1558,6 +1560,7 @@ void MenuFunctions::RunSetup()
       });
     }
   #endif
+  
   #ifdef HAS_GPS
     if (gps_obj.getGpsModuleStatus()) {
       this->addNodes(&wardrivingMenu, "Station Wardrive", TFT_ORANGE, NULL, PROBE_SNIFF, [this]() {
@@ -1567,7 +1570,7 @@ void MenuFunctions::RunSetup()
       });
     }
   #endif
-
+  
   // Build WiFi attack menu
   wifiAttackMenu.parentMenu = &wifiMenu; // Main Menu is second menu parent
   this->addNodes(&wifiAttackMenu, text09, TFT_LIGHTGREY, NULL, 0, [this]() {
@@ -2011,7 +2014,7 @@ void MenuFunctions::RunSetup()
     this->drawStatusBar();
     wifi_scan_obj.StartScan(BT_ATTACK_GOOGLE_SPAM, TFT_PURPLE);
   });
-  this->addNodes(&bluetoothAttackMenu, "Flipper BLE Spam", TFT_ORANGE, NULL, FLIPPER, [this]() {
+  this->addNodes(&bluetoothAttackMenu, "Flipper BLE Spam", TFT_ORANGE, NULL, LANGUAGE, [this]() {
     display_obj.clearScreen();
     this->drawStatusBar();
     wifi_scan_obj.StartScan(BT_ATTACK_FLIPPER_SPAM, TFT_ORANGE);
@@ -2040,7 +2043,6 @@ void MenuFunctions::RunSetup()
           this->addNodes(&airtagMenu, text09, TFT_LIGHTGREY, NULL, 0, [this]() {
           this->changeMenu(airtagMenu.parentMenu);
         });
-
         // Add buttons for all airtags
         // Find out how big our menu is going to be
         int menu_limit;
@@ -2048,35 +2050,33 @@ void MenuFunctions::RunSetup()
           menu_limit = airtags->size();
         else
           menu_limit = BUTTON_ARRAY_LEN;
-
         // Create the menu nodes for all of the list items
         for (int i = 0; i < menu_limit; i++) {
           this->addNodes(&airtagMenu, airtags->get(i).mac, TFT_WHITE, NULL, BLUETOOTH, [this, i](){
             AirTag new_at = airtags->get(i);
             new_at.selected = true;
-
             airtags->set(i, new_at);
-
             // Set all other airtags to "Not Selected"
             for (int x = 0; x < airtags->size(); x++) {
               if (x != i) {
                 AirTag new_atx = airtags->get(x);
                 new_atx.selected = false;
                 airtags->set(x, new_atx);
-              }
-            }
+             }
+           }
 
-            // Start the spoof
-            display_obj.clearScreen();
-            this->drawStatusBar();
-            wifi_scan_obj.StartScan(BT_SPOOF_AIRTAG, TFT_WHITE);
+            
+           // Start the spoof
+           display_obj.clearScreen();
+           this->drawStatusBar();
+           wifi_scan_obj.StartScan(BT_SPOOF_AIRTAG, TFT_WHITE);
 
-          });
-        }
-        this->changeMenu(&airtagMenu);
-      });
+         });
+       }
+       this->changeMenu(&airtagMenu);
+     });
 
-      airtagMenu.parentMenu = &bluetoothAttackMenu;
+    airtagMenu.parentMenu = &bluetoothAttackMenu;
       this->addNodes(&airtagMenu, text09, TFT_LIGHTGREY, NULL, 0, [this]() {
         this->changeMenu(airtagMenu.parentMenu);
       });
