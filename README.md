@@ -7,6 +7,8 @@
 
 ---
 
+# Bin files at the moment need small fixes added. Please do not flash at this time. You may still compile the sketch for yourself though
+
 ## ⬆ Update Highlights 11/25/24 — Marauder v1.1.0 added ⬆
 - Station selecting and attacks now fully working!
 - Add commands for sniffing airtags
