@@ -7,8 +7,10 @@
 
 ---
 
-# Bin files in flasher & M5launcer
+# 🚧 Bin files in flasher & M5launcer 🚧
 At the moment these need small fixes added. Please do not flash at this time. You may still compile the sketch for yourself though and flash that way.
+
+---
 
 ## ⬆ Update Highlights 11/25/24 — Marauder v1.1.0 added ⬆
 - Station selecting and attacks now fully working!
