@@ -30,6 +30,11 @@ At the moment these need small fixes added. Please do not flash at this time. Yo
 These versions of marauder for m5stickC plus & m5stickC plus2 contains a few great fixes and v13.10 contains a clean bootscreen (Read more about the fixes below). <br>
 I have also include the sketch folders with all edits already made if you'd prefer to build from source.</b>
 
+---
+
+If you plan to build from the sketch files in ArduinoIDE then make sure to choose the correct settings in the tools menu.
+<img src="https://github.com/ATOMNFT/M5stick-Marauder/blob/main/Images/flash-settings.png">
+
 <br> 
 
 ## Shoutouts 📢
