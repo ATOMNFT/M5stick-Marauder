@@ -7,11 +7,6 @@
 
 ---
 
-# 🚧 Bin files in flasher & M5launcer 🚧
-At the moment these need small fixes added. Please do not flash at this time. You may still compile the sketch for yourself though and flash that way.
-
----
-
 ## ⬆ Update Highlights 11/25/24 — Marauder v1.1.0 added ⬆
 - Station selecting and attacks now fully working!
 - Add commands for sniffing airtags
@@ -32,22 +27,31 @@ I have also include the sketch folders with all edits already made if you'd pref
 
 ---
 
-If you plan to build from the sketch files in ArduinoIDE then make sure to choose the correct settings in the tools menu.
-<img src="https://github.com/ATOMNFT/M5stick-Marauder/blob/main/Images/flash-settings.png">
-
+## Installation Methods
+1. Use the link below in google chrome to flash the project onto M5stickC plus or M5stickC plus2. 
 <br> 
 
-## Shoutouts 📢
-<b>A huge thank you goes to a few wonderful people. Whom without, I would have not made it as far as I did learning.</b> <br>
-<b>Thanks to <a href=https://github.com/bmorcelli>Pirata/bmorcelli</a> for all your guidance on the m5stick compiling process and late night replies.</b> <br>
-<b>And thank you to <a href=https://github.com/smoochiee>smoochiee</a> and <a href=https://github.com/Fr4nkFletcher>Fr4nkFletcher</a> for helping with Marauder Arduino IDE compiling.</b><br>
-And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for the foundational work on ESP32 Marauder. 
+&nbsp; &nbsp; **Flasher tool:** <a href=https://atomnft.github.io/M5stick-Marauder/flash0.html>M5stickC Plus/2 Tool</a>
 
+<hr>
+
+2. Download <a href=https://docs.m5stack.com/en/download>M5Burner</a> and search for Marauder under (M5stickC) tab.
+
+<hr>
+
+3. <b>You can download the bin files and flash them using m5burner or use with <a href=https://github.com/bmorcelli/M5Stick-Launcher>M5Launcher</a> by bmorcelli as well</b>
+
+<hr>
+
+You can also compile from the source files in this repo in ArduinoIDE but make sure to use the User_Setup files in this repo. 
 <br>
+You will also need the correct library folders in Arduino. 
+<br>
+They can be located <a href=https://github.com/justcallmekoko/ESP32Marauder/wiki/installing-firmware-from-source>HERE</a>
 
-<b>Flasher & bin files are located at bottom of page</b>
+<b>If you plan to build from the sketch files in ArduinoIDE then make sure to choose the correct settings in the tools menu.</b>
+<img src="https://github.com/ATOMNFT/M5stick-Marauder/blob/main/Images/IDE-settings.png">
 
-<b>If you build from the files located in this repo make sure to select esp32/m5stick-c in board settings of ArduinoIDE.</b>
 
 <br>
 <hr>
@@ -80,19 +84,8 @@ Build your own <a href=https://github.com/ATOMNFT/M5stick-CPlus-SD-Backpack>SD B
 <br>
 <hr>
 
-## Installation Methods
-1. Use the link below in google chrome to flash the project onto M5stickC plus or M5stickC plus2. 
-<br> 
-
-&nbsp; &nbsp; **Flasher tool:** <a href=https://atomnft.github.io/M5stick-Marauder/flash0.html>M5stickC Plus/2 Tool</a>
-
-<hr>
-
-2. Download <a href=https://docs.m5stack.com/en/download>M5Burner</a> and search for Marauder under (M5stickC) tab.
-
-<hr>
-
-3. <b>You can download the bin files and flash them using m5burner or use with <a href=https://github.com/bmorcelli/M5Stick-Launcher>M5Launcher</a> by bmorcelli as well</b>
-
-<hr>
-
+## Shoutouts 📢
+<b>A huge thank you goes to a few wonderful people. Whom without, I would have not made it as far as I did learning.</b> <br>
+<b>Thanks to <a href=https://github.com/bmorcelli>Pirata/bmorcelli</a> for all your guidance on the m5stick compiling process and late night replies.</b> <br>
+<b>And thank you to <a href=https://github.com/smoochiee>smoochiee</a> and <a href=https://github.com/Fr4nkFletcher>Fr4nkFletcher</a> for helping with Marauder Arduino IDE compiling.</b><br>
+And of course <a href=https://github.com/justcallmekoko>JustCallMeKoKo</a> for the foundational work on ESP32 Marauder. 
