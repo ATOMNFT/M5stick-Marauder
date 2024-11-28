@@ -69,10 +69,6 @@ They can be located <a href=https://github.com/justcallmekoko/ESP32Marauder/wiki
 Build your own <a href=https://github.com/ATOMNFT/M5stick-CPlus-SD-Backpack>SD Backpack</a>.
 
 <br>
-<hr>
-
-## 🛠️ Fixes as of 04/07/24 🛠️
-- BLE swift pairing windows attack fixed with no crashes and very fast attacks. (See video below)
 
 <hr>
 
