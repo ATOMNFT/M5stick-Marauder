@@ -2173,39 +2173,45 @@ void WiFiScan::setBaseMacAddress(uint8_t macAddr[6]) {
 }
 
 void WiFiScan::executeSpoofAirtag() {
-  #ifdef HAS_BT
+#ifdef HAS_BT
     for (int i = 0; i < airtags->size(); i++) {
-      if (airtags->get(i).selected) {
+        if (airtags->get(i).selected) {
+            uint8_t macAddr[6];
+            // Convert the MAC string to a uint8 array
+            convertMacStringToUint8(airtags->get(i).mac, macAddr);
 
-        uint8_t macAddr[6];
+            // Adjust MAC address as needed (e.g., decrement the last byte)
+            macAddr[5] -= 2;
 
-        convertMacStringToUint8(airtags->get(i).mac, macAddr);
-        delay(5);
-        macAddr[5] -= 2;
-        delay(5);
-        // Do this because ESP32 BT addr is Base MAC + 2
-        
-        this->setBaseMacAddress(macAddr);
-        delay(5);
-        NimBLEDevice::init("");
-        delay(5);
-        NimBLEServer *pServer = NimBLEDevice::createServer();
-        delay(5);
-        pAdvertising = pServer->getAdvertising();
-        delay(5);
-        //NimBLEAdvertisementData advertisementData = getSwiftAdvertisementData();
-        NimBLEAdvertisementData advertisementData = this->GetUniversalAdvertisementData(Airtag);
-        pAdvertising->setAdvertisementData(advertisementData);
-        pAdvertising->start();
-        delay(100);
-        pAdvertising->stop();
-        delay(5);
-        NimBLEDevice::deinit();
+            // Ensure the first byte complies with the unicast requirement
+            macAddr[0] &= 0xFE; // Clear the multicast bit (second LSB)
 
-        break;
-      }
+            // Log the MAC address for debugging
+            Serial.println("Using MAC: " + macToString(macAddr));
+
+            // Set the valid unicast MAC address
+            this->setBaseMacAddress(macAddr);
+
+            // Initialize NimBLE with the adjusted MAC address
+            NimBLEDevice::init("");
+            NimBLEServer *pServer = NimBLEDevice::createServer();
+            pAdvertising = pServer->getAdvertising();
+
+            // Set up advertisement data
+            NimBLEAdvertisementData advertisementData = this->GetUniversalAdvertisementData(Airtag);
+            pAdvertising->setAdvertisementData(advertisementData);
+
+            // Start and stop advertising
+            pAdvertising->start();
+            delay(10);
+            pAdvertising->stop();
+
+            // Deinitialize NimBLE to clean up
+            NimBLEDevice::deinit();
+            break;
+        }
     }
-  #endif
+#endif
 }
 
 void WiFiScan::executeSwiftpairSpam(EBLEPayloadType type) {
