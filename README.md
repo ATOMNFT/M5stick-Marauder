@@ -7,6 +7,15 @@
 
 ---
 
+<br>
+
+<b>Want wifi-marauder on that tiny m5stickC plus or m5stickC plus2? Tried to build from source and hitting brick walls? Then this repo is what you're looking for! A simple way to install marauder on these cool tiny devices! 
+<br><br>
+These versions of marauder for m5stickC plus & m5stickC plus2 contains a few great fixes and v13.10 contains a clean bootscreen (Read more about the fixes below). <br>
+I have also include the sketch folders with all edits already made if you'd prefer to build from source.</b>
+
+---
+
 ## ⬆ Update Highlights 11/25/24 — Marauder v1.1.0 added ⬆
 - Station selecting and attacks now fully working!
 - Add commands for sniffing airtags
@@ -20,13 +29,6 @@
 - Add icon for Flipper Zero Sniff
 - Wardriving Menu added
 - Externalize some utils
-
-<br>
-
-<b>Want wifi-marauder on that tiny m5stickC plus or m5stickC plus2? Tried to build from source and hitting brick walls? Then this repo is what you're looking for! A simple way to install marauder on these cool tiny devices! 
-<br><br>
-These versions of marauder for m5stickC plus & m5stickC plus2 contains a few great fixes and v13.10 contains a clean bootscreen (Read more about the fixes below). <br>
-I have also include the sketch folders with all edits already made if you'd prefer to build from source.</b>
 
 ---
 
