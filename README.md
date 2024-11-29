@@ -9,7 +9,10 @@
 
 <br>
 
-![MC](Images/MC-M5.png)
+<div style="text-align: center;">
+    <img src="Images/MC-M5.png" alt="MC">
+</div>
+
 <b>Want wifi-marauder on that tiny m5stickC plus or m5stickC plus2? Tried to build from source and hitting brick walls? Then this repo is what you're looking for! A simple way to install marauder on these cool tiny devices!
 
 <br>
