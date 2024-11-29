@@ -9,7 +9,7 @@
 
 <br>
 
-<div style="display: flex; justify-content: center; align-items: center;">
+<div align="center">
     <img src="Images/MC-M5.png" alt="MC">
 </div>
 
