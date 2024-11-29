@@ -14,7 +14,7 @@
 <br>
 
 These versions of marauder for m5stickC plus & m5stickC plus2 contains a few great fixes and v13.10 contains a clean bootscreen (Read more about the fixes below).
-I have also include the sketch folders with all edits already made if you'd prefer to build from source.</b>
+Prefer building from source? No problem—the repo includes pre-configured sketch folders with all the necessary edits.</b>
 
 ---
 
