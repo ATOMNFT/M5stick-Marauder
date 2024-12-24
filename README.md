@@ -78,7 +78,7 @@ Build your own <a href=https://github.com/ATOMNFT/M5stick-CPlus-SD-Backpack>SD B
 
 <hr>
 
-## 🌟 Customaztions 🌟
+## 🌟 Customizations 🌟
 - Custom bootscreen (v13.10 only) added to both the c plus and c plus2.<br>
 ![2USB](Images/M5boot-screen.jpg)
 
