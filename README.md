@@ -26,9 +26,8 @@ Prefer building from source? No problem—the repo includes pre-configured sketc
 - Add MAX17048 Battery Fuel Gauge modification
 - Add Save/Load Airtag data to Save/Load file menu in Device menu
 - Station selecting and attacks now fully working!
-- Add commands for sniffing airtags
 - Airtag Sniffing/Spoofing
-- Working Pwnagotchi Detect on all models
+- Add commands for sniffing airtags
 - Add commands for listing and spoofing airtags
 - Update NimBLE version from v1.2.0 to v1.3.5
 - Add Flipper Zero Sniff
