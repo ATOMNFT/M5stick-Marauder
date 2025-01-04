@@ -40,7 +40,7 @@ Prefer building from source? No problem—the repo includes pre-configured sketc
 ---
 
 ## Installation Methods
-* 1. Use the link below in google chrome to flash the project onto M5stickC plus or M5stickC plus2. 
+1. Use the link below in google chrome to flash the project onto M5stickC plus or M5stickC plus2. 
 <br> 
 
 > &nbsp; &nbsp; **Flasher tool:** <a href=https://atomnft.github.io/M5stick-Marauder/flash0.html>M5stickC Plus/2 Tool</a>
