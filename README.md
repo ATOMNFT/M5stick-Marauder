@@ -22,7 +22,9 @@ Prefer building from source? No problem—the repo includes pre-configured sketc
 
 ---
 
-## ⬆ Update Highlights 11/25/24 — Marauder v1.1.0 added ⬆
+## ⬆ Update Highlights 1/3/25 — Marauder v1.2.0 added ⬆
+- Add MAX17048 Battery Fuel Gauge modification
+- Add Save/Load Airtag data to Save/Load file menu in Device menu
 - Station selecting and attacks now fully working!
 - Add commands for sniffing airtags
 - Airtag Sniffing/Spoofing
